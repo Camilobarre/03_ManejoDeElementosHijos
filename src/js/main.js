@@ -22,7 +22,7 @@ btnExecuteExample.addEventListener("click", () => {
     const newButton=createButtonSuccess()
     const btnReference=selectInfoButton()
 
-    main.insertBefore(newButton,btnReference).0
+    main.insertBefore(newButton,btnReference)
 
 })
 
